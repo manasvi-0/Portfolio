@@ -24,7 +24,7 @@ export const myProjects = [
     subdesc:
       'Built as an open-source learning project using Python, scikit-learn, pandas, numpy, and visualization libraries like matplotlib and seaborn, AlgoLab is designed to make machine learning concepts accessible, interactive, and beginner-friendly for anyone who wants to learn ML visually.',
     href: 'https://github.com/manasvi-0/AlgoLab.git',
-    texture: 'public/textures/project/algolab.mov',
+    texture: '/textures/project/algolab.mov',
     logo: '/assets/logo1.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
