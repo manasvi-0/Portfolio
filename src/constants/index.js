@@ -25,7 +25,7 @@ export const myProjects = [
       'Built as an open-source learning project using Python, scikit-learn, pandas, numpy, and visualization libraries like matplotlib and seaborn, AlgoLab is designed to make machine learning concepts accessible, interactive, and beginner-friendly for anyone who wants to learn ML visually.',
     href: 'https://github.com/manasvi-0/AlgoLab.git',
     texture: 'public/textures/project/algolab.mov',
-    logo: 'public/assets/logo1.png',
+    logo: '/assets/logo1.png',
     logoStyle: {
       backgroundColor: '#0E1F38',
       border: '0.2px solid #0E2D58',
@@ -36,22 +36,22 @@ export const myProjects = [
       {
         id: 1,
         name: 'Python',
-        path: 'public/icons/python.png',
+        path: '/icons/python.png',
       },
       {
         id: 2,
         name: 'GitHub',
-        path: 'public/icons/git.png',
+        path: '/icons/git.png',
       },
       {
         id: 3,
         name: 'Pandas',
-        path: 'public/icons/pandas.png',
+        path: '/icons/pandas.png',
       },
       {
         id: 4,
         name: 'Numpy',
-        path: 'public/icons/numpy.png',
+        path: '/icons/numpy.png',
       },
     ],
   },
@@ -61,8 +61,8 @@ export const myProjects = [
     subdesc:
       'Built as a machine learning-powered recommendation engine using Python and data science tools, Book-Recommender leverages algorithms like collaborative filtering and similarity scoring to deliver book suggestions. The project includes a web interface and preprocessed datasets, making it easy to explore and extend for enhanced recommendation experiences.',
     href: 'https://github.com/manasvi-0/Book-Recommender.git',
-    texture: 'public/textures/project/book.mov',
-    logo: 'public/assets/logo2.png',
+    texture: '/textures/project/book.mov',
+    logo: '/assets/logo2.png',
     logoStyle: {
       backgroundColor: '#1C1A43',
       border: '0.2px solid #252262',
@@ -73,22 +73,22 @@ export const myProjects = [
       {
         id: 1,
         name: 'Python',
-        path: 'public/icons/python.png',
+        path: '/icons/python.png',
       },
       {
         id: 2,
         name: 'Flask',
-        path: 'public/icons/flask.png',
+        path: '/icons/flask.png',
       },
       {
         id: 3,
         name: 'Jupyter Notebook',
-        path: 'public/icons/jupyter.png',
+        path: '/icons/jupyter.png',
       },
       {
         id: 4,
         name: 'Pandas',
-        path: 'public/icons/pandas.png',
+        path: '/icons/pandas.png',
       },
     ],
   },
@@ -98,8 +98,8 @@ export const myProjects = [
     subdesc:
       'Built as an intelligent AI healthcare companion using cutting-edge natural language processing models (e.g., OpenAI GPT), DoctorAi is designed to interpret user health prompts and deliver meaningful responses. With a focus on accessibility and real-time interaction, this project showcases practical applications of AI in the medical assistance domain.',
     href: 'https://github.com/manasvi-0/DoctorAi.git',
-    texture: 'public/textures/project/doctorAi.mov',
-    logo: 'public/assets/logo3.png',
+    texture: '/textures/project/doctorAi.mov',
+    logo: '/assets/logo3.png',
     logoStyle: {
        backgroundColor: '#2A1816',
       border: '0.2px solid #36201D',
@@ -110,22 +110,22 @@ export const myProjects = [
       {
         id: 1,
         name: 'Jupyter Notebook',
-        path: 'public/icons/jupyter.png',
+        path: '/icons/jupyter.png',
       },
       {
         id: 2,
         name: 'Flask',
-        path: 'public/icons/flask.png',
+        path: '/icons/flask.png',
       },
       {
         id: 3,
         name: 'HTML',
-        path: 'public/icons/html.png',
+        path: '/icons/html.png',
       },
       {
         id: 4,
         name: 'Gemini AI',
-        path: 'public/icons/gemini.png',
+        path: '/icons/gemini.png',
       },
     ],
   },
@@ -135,8 +135,8 @@ export const myProjects = [
     subdesc:
       'This project analyzes and forecasts stock market trends using time series analysis techniques. We explore statistical models like ARIMA, SARIMA, and Facebook Prophet, as well as a deep learning-based LSTM model to make short- and long-term stock price predictions.',
     href: 'https://github.com/manasvi-0/stock-market-time-series-forecasting.git',
-    texture: 'public/textures/project/stock.mov',
-    logo: 'public/icons/stock.png',
+    texture: '/textures/project/stock.mov',
+    logo: '/icons/stock.png',
     logoStyle: {
       backgroundColor: '#60f5a1',
       background:
@@ -149,22 +149,22 @@ export const myProjects = [
       {
         id: 1,
         name: 'Python',
-        path: 'public/icons/python.png',
+        path: '/icons/python.png',
       },
       {
         id: 2,
         name: 'Plotly',
-        path: 'public/icons/plotly.png',
+        path: '/icons/plotly.png',
       },
       {
         id: 3,
         name: 'Seaborn',
-        path: 'public/icons/seaborn.png',
+        path: '/icons/seaborn.png',
       },
       {
         id: 4,
         name: 'Streamlit',
-        path: 'public/icons/streamlit.png',
+        path: '/icons/streamlit.png',
       },
     ],
   },
@@ -174,8 +174,8 @@ export const myProjects = [
     subdesc:
       'This project is a web-based application for predicting customer churn using a pre-trained Logistic Regression model. It helps businesses identify customers who are likely to leave and provides actionable tips for churn prevention and customer retention.',
     href: 'https://github.com/manasvi-0/churn_pred.git',
-    texture: 'public/textures/project/churn.mov',
-    logo: 'public/assets/churn.png',
+    texture: '/textures/project/churn.mov',
+    logo: '/assets/churn.png',
     logoStyle: {
       backgroundColor: '#13202F',
       border: '0.2px solid #17293E',
@@ -186,22 +186,22 @@ export const myProjects = [
       {
         id: 1,
         name: 'Streamlit',
-        path: 'public/icons/streamlit.png',
+        path: '/icons/streamlit.png',
       },
       {
         id: 2,
         name: 'Python',
-        path: 'public/icons/python.png',
+        path: '/icons/python.png',
       },
       {
         id: 3,
         name: 'Pandas',
-        path: 'public/icons/pandas.png',
+        path: '/icons/pandas.png',
       },
       {
         id: 4,
         name: 'Numpy',
-        path: 'public/icons/numpy.png',
+        path: '/icons/numpy.png',
       },
     ],
   },

@@ -3,7 +3,7 @@ import { useGLTF, useAnimations } from '@react-three/drei'
 
 const HackerRoom=(props) =>{
   const group = useRef()
-  const { nodes, materials, animations } = useGLTF('public/models/robot_playground.glb')
+  const { nodes, materials, animations } = useGLTF('/models/robot_playground.glb')
   const { actions } = useAnimations(animations, group)
 
   return (
@@ -838,5 +838,5 @@ const HackerRoom=(props) =>{
   )
 }
 
-useGLTF.preload('public/models/robot_playground.glb')
+useGLTF.preload('/models/robot_playground.glb')
 export default HackerRoom;
