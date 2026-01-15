@@ -68,16 +68,26 @@ const ReachOut = () => {
       </div>
 
       {/* FOOTER */}
-      <footer className="mt-16 w-full max-w-3xl px-4">
-        <div className="w-full h-px bg-zinc-700/80 mb-6" />
-        <p className="text-center text-zinc-500 text-sm">
-          Designed & Developed by{" "}
-          <span className="text-white">Manasvi Jindal</span>
-        </p>
-        <p className="text-center text-zinc-600 text-xs mt-1">
-          © 2026. All rights reserved.
-        </p>
-      </footer>
+    <footer className="mt-16 w-full px-4 sm:px-6 lg:px-8">
+  <div className="mx-auto max-w-5xl">
+    {/* Divider */}
+    <div className="w-full h-px bg-zinc-700/80 mb-6" />
+
+    {/* Text */}
+    <div className="text-center">
+      <p className="text-zinc-500 text-sm sm:text-base">
+        Designed & Developed by{" "}
+        <span className="text-white font-medium">
+          Manasvi Jindal
+        </span>
+      </p>
+
+      <p className="text-zinc-600 text-xs sm:text-sm mt-1">
+        © 2026. All rights reserved.
+      </p>
+    </div>
+  </div>
+</footer>
 
     </section>
   );
