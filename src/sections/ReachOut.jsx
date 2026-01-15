@@ -64,7 +64,9 @@ const ReachOut = () => {
         </p>
 
         {/* 🔘 Button */}
-        <Button name="Contact Me" isBeam />
+        <a href="/contact" className="w-fit">
+          <Button name="Contact Me" isBeam />
+        </a>
       </div>
 
       {/* FOOTER */}
