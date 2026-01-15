@@ -31,7 +31,7 @@ const Contact = () => {
           to_email: 'manasvijindal57@gmail.com',
           message: form.message,
         },
-        'M8216UsYsYFdFKvW7',
+        'M8216UsYsYFdFKvW7'
       )
       .then(
         () => {
@@ -44,39 +44,39 @@ const Contact = () => {
 
           setTimeout(() => {
             hideAlert(false);
-            setForm({
-              name: '',
-              email: '',
-              message: '',
-            });
-          }, [3000]);
+            setForm({ name: '', email: '', message: '' });
+          }, 3000);
         },
-        (error) => {
+        () => {
           setLoading(false);
-          console.error(error);
-
           showAlert({
             show: true,
             text: "I didn't receive your message 😢",
             type: 'danger',
           });
-        },
+        }
       );
   };
 
   return (
-    <section className="c-space my-20" id="contact">
+    <section className="c-space py-20" id="contact">
       {alert.show && <Alert {...alert} />}
 
-      <div className="relative min-h-screen flex items-center justify-center flex-col">
+      <div className="relative flex items-center justify-center">
+        <div className="contact-container w-full max-w-xl mx-auto px-4 sm:px-6">
+          <h3 className="head-text text-center">Let's talk</h3>
 
-        <div className="contact-container">
-          <h3 className="head-text">Let's talk</h3>
-          <p className="text-lg text-white-600 mt-3">
-            From data-driven analysis to intelligent AI and machine learning solutions, I help transform complex ideas into impactful, real-world systems.
+          <p className="text-center text-lg text-white-600 mt-3">
+            From data-driven analysis to intelligent AI and machine learning
+            solutions, I help transform complex ideas into impactful, real-world
+            systems.
           </p>
 
-          <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
+          <form
+            ref={formRef}
+            onSubmit={handleSubmit}
+            className="mt-12 flex flex-col space-y-7 w-full"
+          >
             <label className="space-y-3">
               <span className="field-label">Full Name</span>
               <input
@@ -118,8 +118,11 @@ const Contact = () => {
 
             <button className="field-btn" type="submit" disabled={loading}>
               {loading ? 'Sending...' : 'Send Message'}
-
-              <img src="/assets/arrow-up.png" alt="arrow-up" className="field-btn_arrow" />
+              <img
+                src="/assets/arrow-up.png"
+                alt="arrow-up"
+                className="field-btn_arrow"
+              />
             </button>
           </form>
         </div>
