@@ -151,6 +151,28 @@ body {
     @apply text-[#afb0b6] text-base font-generalsans;
   }
 
+    /* Contact form */
+  .field-label {
+    @apply text-sm text-neutral-400 font-generalsans;
+  }
+
+  .field-input {
+    @apply w-full px-4 py-3 rounded-md bg-black-200 border border-black-300
+           text-white placeholder-neutral-500 focus:outline-none
+           focus:ring-2 focus:ring-neutral-500 focus:border-transparent
+           transition-all;
+  }
+
+  .field-btn {
+    @apply mt-4 flex items-center justify-center gap-3 px-6 py-3
+           rounded-md bg-white text-black font-medium
+           hover:bg-neutral-200 transition-all disabled:opacity-60;
+  }
+
+  .field-btn_arrow {
+    @apply w-4 h-4;
+  }
+
   /* Footer icons */
   .social-icon {
     @apply w-12 h-12 rounded-full flex justify-center items-center
